@@ -150,13 +150,13 @@ nav a:hover {
 }
 
 #projects article div {
-    width: 800px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
 }
 
 #projects article {
-    padding: 2rem 0 2rem 0;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,7 +200,7 @@ nav a:hover {
 }
 
 #about div {
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
